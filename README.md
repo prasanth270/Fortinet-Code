@@ -16,7 +16,8 @@ On Application launch, end user will select either of two choices 1 or 2,
 
 #Implemention:
 
+![Alt text](uml.png?raw=true "Implementation")
 
+User will start the application using StartUp. Based on the user input, an instance of AbstractoryFactory will be created which returns an instance of Forest type.
 
-
-
+If the user input is 1, a forest with 10 animals and 5 trees will be created. If user input is 2, a random forest is created.
